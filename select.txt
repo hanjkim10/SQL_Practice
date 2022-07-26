@@ -1,0 +1,8 @@
+SELECT *
+FROM [테이블명]
+
+Ex)
+SELECT * 
+FROM Person
+
+: Person 테이블의 모든 필드를 검색
