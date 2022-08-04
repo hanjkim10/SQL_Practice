@@ -52,5 +52,6 @@ where
         "Pickle",
         "Rogan",
         "Sabrina",
-        "Mitty"
+        "Mitty",
+        "Mary"
     )
