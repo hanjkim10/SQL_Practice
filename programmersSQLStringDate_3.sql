@@ -44,16 +44,16 @@
 
 -- ※ 컬럼 이름은 일치하지 않아도 됩니다.
 
-select
+SELECT
     animal_id,
     name,
     if(
         regexp_like(
             sex_upon_intake,
-            'Neutered|Spayed'
+            "Neutered|Spayed"
         ),
         'O',
         'X'
-    ) AS "중성화"
-from animal_ins
-order by animal_id;
+    ) as "중성화"
+FROM animal_ins
+ORDER BY animal_id
